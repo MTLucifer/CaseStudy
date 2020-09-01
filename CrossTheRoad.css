@@ -1,0 +1,8 @@
+canvas{
+    border:3px solid black;
+    background-color: aqua;
+    /*width: 600px;*/
+    /*height: 600px;*/
+    display: block;
+    margin: auto;
+}
