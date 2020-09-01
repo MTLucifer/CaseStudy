@@ -25,7 +25,6 @@ function checkLose(crash){
         //     location.reload();
         //dang sua
         }
-    }
 }
 
 function checkWin(){
