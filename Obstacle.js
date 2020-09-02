@@ -4,13 +4,15 @@ function Obstacle(x,y, width, height) {
     this.height = height;
     this.x = x;
     this.y = y;
-    this.color = "black";
+    this.color = "white";
     this.speedX = 1;
     this.drawObstacle = function (){
         ctx.beginPath();
         ctx.rect(this.x,this.y,this.width,this.height);
         ctx.fillStyle = this.color;
         ctx.fill();
+        ctx.stroke();
+        ctx.strokeStyle = "black";
         ctx.closePath();
     }
 

@@ -21,9 +21,7 @@ multyObstacle(10);
 
 function checkLose(crash){
     if(crash) {
-        // if (confirm("Thua, Ban co muon choi tiep?")) {
-        //     location.reload();
-        //dang sua
+        setTimeout(() => {clearInterval(timeId); alert("lose")},1)
         }
 }
 
@@ -32,8 +30,11 @@ function checkWin(){
         alert("Win")
     }
 }
+// function levelUp(){
+//     let up
+// }
 
-    setInterval(function (){
+let timeId = setInterval( function () {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         player.drawPlayer();
         player.movePlayer();
@@ -44,10 +45,4 @@ function checkWin(){
             checkLose(obstacles[i].crashWith());
             checkWin();
         }
-        // multyObstacle(10);
-        // obstacle.drawObstacle();
-        // obstacles.x += obstacles.speedX;
-
-        // obstacles.autoLeft();
-
     }, 2);

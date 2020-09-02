@@ -11,16 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79724a41-262a-446d-b2ca-0bd4b9823d8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CaseStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CrossTheRoad.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CrossTheRoad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CrossTheRoad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obstacle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrossTheRoad.css" beforeDir="false" afterPath="$PROJECT_DIR$/CrossTheRoad.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrossTheRoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrossTheRoad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Obstacle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Obstacle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,8 @@
       <workItem from="1598837396576" duration="18334000" />
       <workItem from="1598886259341" duration="3344000" />
       <workItem from="1598922355568" duration="20130000" />
-      <workItem from="1598985203793" duration="2772000" />
+      <workItem from="1598985203793" duration="2913000" />
+      <workItem from="1599059036929" duration="4999000" />
     </task>
     <servers />
   </component>
