@@ -55,8 +55,8 @@ function Player(x,y,width,height) {
         }
     }
     this.autoUp = function () {
-        if (this.y + this.width < 0) {
-            this.y = canvas.height;
+        if (this.y < 0) {
+            this.y = canvas.height - 30;
         }
     }
 

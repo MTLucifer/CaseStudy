@@ -2,14 +2,16 @@ let canvas = document.getElementById("myCanvas");
 let ctx = canvas.getContext("2d");
 let obstaclesRight = [];
 let obstaclesLeft = [];
-let number = 3;
+let number = 2;
 let player = new Player(285,570,30,30);
 player.drawPlayer();
 let levelup = 1;
 
 function drawWin(){
     let a= new Obstacle( Math.random()*600,Math.random()*450+50,80,30);
+    let b= new Obstacle( Math.random()*600,Math.random()*450+50,80,30);
     obstaclesLeft.push(a);
+    obstaclesRight.push(b);
     let level = levelup+=1;
     document.getElementById('level').innerHTML = "LEVEL " + (level);
 }
@@ -38,9 +40,7 @@ function multyObstacleLeft(number){
 
 function checkWin(){
     if(player.y == 0) {
-        // setTimeout(() => {clearInterval(timeId); drawWin()},1)
-        setTimeout(drawWin(),3000);
-
+        drawWin()
     }
 
 }
