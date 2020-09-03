@@ -21,11 +21,11 @@ function Obstacle(x,y, width, height) {
             this.x = (-this.width);
         }
     }
-    // this.autoLeft = function () {
-    //     if (this.x >= 0) {
-    //         this.x = canvas.width;
-    //     }
-    // }
+    this.autoLeft = function () {
+        if (this.x + this.width < 0) {
+            this.x = canvas.width;
+        }
+    }
     // nâng cấp luồng chạy của vật cản
     this.crashWith = function(){
         let myleft = player.x;

@@ -1,3 +1,6 @@
+window.addEventListener("keydown", onKeyDown)
+window.addEventListener("keyup", onKeyUp)
+
 function onKeyDown(evt){
     switch (evt.which){
         case 39:

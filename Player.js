@@ -17,7 +17,6 @@ function Player(x,y,width,height) {
         ctx.fillStyle = this.color;
         ctx.fill();
         ctx.closePath();
-
     }
 
     this.moveRight = function (){
