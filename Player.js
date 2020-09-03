@@ -50,20 +50,13 @@ function Player(x,y,width,height) {
         } else if (this.x > canvas.width -  this.width){
             this.x = canvas.width - this.width;
         }
-        if (this.x < 0){
-            this.x = 0;
-        } else if (this.x > canvas.width +  this.width){
-            this.x = canvas.width + this.width;
-        }
-        if (this.y < 0){
-            this.y = 0;
-        } else if (this.y > canvas.height -  this.height){
+        if (this.y > canvas.height -  this.height){
             this.y = canvas.height - this.height;
         }
-        if (this.y < 0){
-            this.y = 0;
-        } else if (this.y > canvas.height +  this.height){
-            this.y = canvas.height + this.height;
+    }
+    this.autoUp = function () {
+        if (this.y + this.width < 0) {
+            this.y = canvas.height;
         }
     }
 

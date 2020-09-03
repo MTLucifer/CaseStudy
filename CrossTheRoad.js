@@ -2,23 +2,24 @@ let canvas = document.getElementById("myCanvas");
 let ctx = canvas.getContext("2d");
 let obstaclesRight = [];
 let obstaclesLeft = [];
+let number = 3;
 let player = new Player(285,570,30,30);
 player.drawPlayer();
+let levelup = 1;
 
 function drawWin(){
-    ctx.beginPath();
-    ctx.font = "80px Arial";
-    ctx.textAlign = "center";
-    ctx.fillText("YOU WIN",300,300);
-    ctx.fillStyle = "red";
-    ctx.closePath();
+    let a= new Obstacle( Math.random()*600,Math.random()*450+50,80,30);
+    obstaclesLeft.push(a);
+    let level = levelup+=1;
+    document.getElementById('level').innerHTML = "LEVEL " + (level);
 }
+
 function drawLose(){
     ctx.beginPath();
     ctx.font = "80px Arial";
     ctx.textAlign = "center";
-    ctx.fillText("YOU LOSE",300,300);
     ctx.fillStyle = "red";
+    ctx.fillText("GAME OVER",300,300);
     ctx.closePath();
 }
 
@@ -34,8 +35,18 @@ function multyObstacleLeft(number){
         obstaclesLeft.push(obstacle);
     }
 }
-multyObstacleRight(5);
-multyObstacleLeft(5);
+
+function checkWin(){
+    if(player.y == 0) {
+        // setTimeout(() => {clearInterval(timeId); drawWin()},1)
+        setTimeout(drawWin(),3000);
+
+    }
+
+}
+
+multyObstacleRight(number);
+multyObstacleLeft(number);
 
 function checkLose(crash){
     if(crash) {
@@ -43,16 +54,11 @@ function checkLose(crash){
         }
 }
 
-function checkWin(){
-    if(player.y === 0) {
-        setTimeout(() => {clearInterval(timeId); drawWin()},1)
-    }
-}
-
 let timeId = setInterval( function () {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         player.drawPlayer();
         player.movePlayer();
+        player.autoUp();
         for (let i = 0; i < obstaclesRight.length; i++) {
             obstaclesRight[i].x += obstaclesRight[i].speedX;
             obstaclesRight[i].drawObstacle(canvas);
@@ -66,4 +72,4 @@ let timeId = setInterval( function () {
             checkLose(obstaclesLeft[i].crashWith());
     }
     checkWin();
-    }, 2);
+    }, 5);
