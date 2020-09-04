@@ -39,7 +39,7 @@ function multyObstacleLeft(number){
 }
 
 function checkWin(){
-    if(player.y == 0) {
+    if(player.y == 1) {
         drawWin()
     }
 

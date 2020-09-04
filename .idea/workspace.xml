@@ -12,15 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79724a41-262a-446d-b2ca-0bd4b9823d8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrossTheRoad.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/CrossTheRoad.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrossTheRoad.html" beforeDir="false" afterPath="$PROJECT_DIR$/CrossTheRoad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrossTheRoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/CrossTheRoad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission-Impossible-Theme-full-theme-Nhac-Giao-Huong (mp3cut.net).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Audio/Mission-Impossible-Theme-full-theme-Nhac-Giao-Huong (mp3cut.net).mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Obstacle.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Obstacle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d8un0f2-0bbc2229-4839-4936-86cf-b8652493c960.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/d8un0f2-0bbc2229-4839-4936-86cf-b8652493c960.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/istockphoto-1143081971-612x612.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/istockphoto-1143081971-612x612.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/CrossTheRoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/CrossTheRoad.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +47,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.CrossTheRoad.html">
-    <configuration name="CrossTheRoad.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CaseStudy/CrossTheRoad.html" useBuiltInWebServerPort="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORK\Codegym\Module2\CaseStudy\Audio" />
+      <recent name="D:\WORK\Codegym\Module2\CaseStudy\CSS" />
+      <recent name="D:\WORK\Codegym\Module2\CaseStudy\Picture" />
+      <recent name="D:\WORK\Codegym\Module2\CaseStudy\JS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Index.html">
+    <configuration name="Index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CaseStudy/Index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="CrossTheRoad.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS/CrossTheRoad.js" working-dir="$PROJECT_DIR$">
@@ -64,7 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.CrossTheRoad.html" />
+        <item itemvalue="JavaScript Debug.Index.html" />
         <item itemvalue="Node.js.CrossTheRoad.js" />
       </list>
     </recent_temporary>
@@ -86,7 +86,7 @@
       <workItem from="1599094736721" duration="18345000" />
       <workItem from="1599122851078" duration="3006000" />
       <workItem from="1599142725562" duration="4162000" />
-      <workItem from="1599181274497" duration="4339000" />
+      <workItem from="1599181274497" duration="6203000" />
     </task>
     <servers />
   </component>
